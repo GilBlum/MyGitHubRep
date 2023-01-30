@@ -6,6 +6,8 @@ data = pd.read_csv("employees.csv")
 
 # generating one row
 rows = data.sample(frac =.25)
+rows2 = data.sample(frac =.50)
+
 
 # checking if sample is 0.25 times data or not
 
